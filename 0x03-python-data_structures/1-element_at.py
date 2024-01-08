@@ -1,15 +1,14 @@
 #!/usr/bin/python3
 
 
-def replace_in_list(my_list, idx, element):
+def element_at(my_list: list, idx: int) -> int:
 
-    # check for invalid index positions, if found, don't modify the list
-    if not (0 <= idx < len(my_list)):
-        return my_list
+    # handle invalid index ranges - negatives not accepted as well
+    if 0 > idx >= len(my_list):
+        return None
 
-    for i in range(len(my_list)):
+    for i, data in enumerate(my_list):
         if i == idx:
-            # update the list with the replacement's value
-            my_list[i] = element
+            return data
 
-            return my_list
+    return None  # element not found
