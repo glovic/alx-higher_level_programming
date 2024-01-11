@@ -1,1 +1,1 @@
- I started learning More Data Structures: Set, Dictionary and there uses in python
+In this project, I learned about sets and dictionaries in Python. I practiced using them with the lambda, map, filter, and reduce methods.
