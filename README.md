@@ -1,1 +1,1 @@
-In this project, the user started to familiarize themselves with the Python interpreter.
+This repository is dedicated to understanding and practicing fundamental Python concepts such as if/else statements, loops, and functions.
