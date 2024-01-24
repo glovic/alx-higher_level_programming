@@ -1,11 +1,20 @@
 #!/usr/bin/python3
+
+"""
+Defines a blueprint for a Square as part of the OOP tasks
+"""
+
+
 class Square:
-    """Represent a square."""
+    """
+    A blueprint for working with squares
+    """
 
     def __init__(self, size):
-        """Initialize a new Square.
+        """
+        Initializes the Square class
 
         Args:
-            size (int): The size of the new square.
+            size (Any): the size of the square
         """
-		self.__size = size
+        self.__size = size
