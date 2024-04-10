@@ -1,4 +1,7 @@
 #!/usr/bin/node
-for (const line of ['C is fun', 'Python is cool', 'Javascript is amazing']) {
-  console.log(line);
-}
+
+// Prints a message about languages in an array using a loop.
+
+const languages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+
+languages.forEach(language => console.log(language));
